@@ -82,3 +82,4 @@ resultadodeBusquedas.addEventListener("input", () => {
     document.getElementById("resultadodeBusqueda").innerHTML = resultadosHTML
 })
 
+// 
