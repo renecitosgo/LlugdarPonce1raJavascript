@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-image: url("../imagenes/color\ de\ fondo.jpg");
+}
+
+.contenedor1{
+    padding: 30px;
+}
