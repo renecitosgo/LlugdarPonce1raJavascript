@@ -6,8 +6,36 @@
 
 body {
     background-image: url("../imagenes/color\ de\ fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#seleccionCliente {
+    color: white;
+    background-color: rgb(27, 27, 36);
+    padding: 10px;
+    border: solid 1px rgb(72, 71, 71);
+    border-radius: 5px;
+}
+
+#historialdeBusquedas {
+    color: white;
+    background-color: rgb(27, 27, 36);
+    padding: 10px;
+    border: solid 1px rgb(72, 71, 71);
+    border-radius: 5px;
+
+}
 .contenedor1{
     padding: 30px;
+}
+
+.miBotonClima {
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.miInputBusqueda {
+    margin-left: 30px;
+    padding: 5px;
 }

@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
-    <title>Proyecto FinalLlugdar Ponce Javascript</title>
+    <title>Proyecto Final Llugdar Ponce Javascript</title>
 </head>
 <body>
     
+
         <div class=" contenedor1 container text-center" >
-            <h1> Necesitas una batería 🪫 </h1>
+            <h1> Necesitas una batería <i class="bi bi-battery-half"></i>
+            </h1>
     
             <label for="ingresaTuVehículo">Ingresá tu Vehículo</label>
     
@@ -19,8 +22,9 @@
     
             <button id="seleccionCliente">Buscar</button>
         </div>
-        <div id="eleccion">Elejiste esto: </div>
+        <div class="p-3 h6" id="eleccion">Elejiste esto: </div>
 
+        <br>
 
         <div class=" contenedor2 container text-center">
             <h2 class="buscador">Buscador</h2>
@@ -30,21 +34,15 @@
             <div id="resultadodeBusqueda"></div>
         </div>
 
-
         <br>
-        
-        <div class="text-end p-3">
+
+        <div class="container-sm text text-sm-end p-3">
         <button class="text-bg-dark" id="historialdeBusquedas">Mostrar el Historial de Búsquedas</button>
         </div>
-        <br>
 
-
-        <br>
-        
-        
+        <br>        
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
-</html>
